@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Gabriela);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
 
 html, body {
   height: 100%;
@@ -6,11 +7,12 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,111,1) 35%, rgba(0,212,255,1) 100%);
   background-size: cover;
   background-attachment: fixed;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-family: 'Lato', sans-serif;;
+  font-size: 18px;
 }
 
 .wrapper {
@@ -25,8 +27,8 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Gabriela', serif;
-  color: #fff;
+   font-family: 'Lato', sans-serif;;
+  color: rgb(187, 255, 0);
 }
 
 h1 {
